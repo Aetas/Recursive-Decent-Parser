@@ -1,0 +1,11 @@
+1. Add command line argument. Probably just load argv[] into a string stream and then pass that. ezpz.
+2. expand to powers and factorials.
+3. add trig functions -- this will take a lot of work and possibly an entirely new parser
+	(but that's half the fun, istn it?)
+4. Turn this biotch into a hooker. And by hooker, I mean let this program hook into other programs.
+	(IDEA -- binary addition on an arduino/rpi would be a ton of fun)
+	with a serial transmit, I could actually make switches to add this shit.
+5. ...TBD
+6. ???
+7. Profit.
+
