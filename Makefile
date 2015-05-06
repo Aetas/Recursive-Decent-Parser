@@ -9,15 +9,15 @@ all : program
 
 program : $(OBJ)
   &(GCC) $(GCCFLAGS) -o $(OUT) $(OBJ)
-  
+
 main.o : Source.cpp Parser.h
   &(GCC) $(GCCFLAGS) -c Source.cpp
-  
+
 parser.o : Parser.cpp Parser.h
   &(GCC) $(GCCFLAGS) -c Parser.cpp
-  
+
 clean :
   rm *.o
-  
-uninstall : 
+
+uninstall :
   rm *.out
